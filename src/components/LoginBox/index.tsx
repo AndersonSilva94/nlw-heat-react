@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { AuthContext } from '../../context/AuthContext';
 
 export function LoginBox() {
-  const { user, signInUrl } = useContext(AuthContext)
+  const { signInUrl } = useContext(AuthContext)
 
   // console.log(user);
 
