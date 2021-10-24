@@ -10,6 +10,7 @@ export type User = {
 type AuthContextData = {
   user: User | null;
   signInUrl: string;
+  signOut: () => void;
 }
 
 export const AuthContext = createContext({} as AuthContextData);

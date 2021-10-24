@@ -6,7 +6,7 @@ import { AuthContext } from '../../context/AuthContext';
 export function LoginBox() {
   const { user, signInUrl } = useContext(AuthContext)
 
-  console.log(user);
+  // console.log(user);
 
   return (
     <div className={styles.loginBoxWrapper}>
